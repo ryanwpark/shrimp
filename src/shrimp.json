@@ -1,0 +1,65 @@
+[
+	{
+		"product_id": 1,
+		"name": "Large Shrimp",
+		"price_single": 5.99,
+		"price_pack_10": 50.0,
+		"image_url": "shrimpPics/shrimp1webp"
+	},
+	{
+		"product_id": 2,
+		"name": "Medium Shrimp",
+		"price_single": 3.99,
+		"price_pack_10": 35.0,
+		"image_url": "shrimpPics/shrimp2webp"
+	},
+	{
+		"product_id": 3,
+		"name": "Small Shrimp",
+		"price_single": 2.99,
+		"price_pack_10": 27.0,
+		"image_url": "shrimpPics/shrimp3webp"
+	},
+	{
+		"product_id": 4,
+		"name": "Tiger Shrimp",
+		"price_single": 8.99,
+		"price_pack_10": 80.0,
+		"image_url": "shrimpPics/shrimp4webp"
+	},
+	{
+		"product_id": 5,
+		"name": "King Prawn",
+		"price_single": 12.99,
+		"price_pack_10": 110.0,
+		"image_url": "shrimpPics/shrimp5webp"
+	},
+	{
+		"product_id": 6,
+		"name": "Frozen Shrimp",
+		"price_single": 4.49,
+		"price_pack_10": 40.0,
+		"image_url": "shrimpPics/shrimp6webp"
+	},
+	{
+		"product_id": 7,
+		"name": "Jumbo Shrimp",
+		"price_single": 10.99,
+		"price_pack_10": 95.0,
+		"image_url": "shrimpPics/shrimp7webp"
+	},
+	{
+		"product_id": 8,
+		"name": "Black Tiger Shrimp",
+		"price_single": 9.49,
+		"price_pack_10": 85.0,
+		"image_url": "shrimpPics/shrimp8webp"
+	},
+	{
+		"product_id": 9,
+		"name": "White Shrimp",
+		"price_single": 6.99,
+		"price_pack_10": 60.0,
+		"image_url": "shrimpPics/shrimp9webp"
+	}
+]
