@@ -1,102 +1,17 @@
-.Header {
-	display: flex;
-	flex-direction: row;
-	background-color: beige;
-	font-size: 15px;
-	width: 100%;
-	margin-bottom: 20px;
+.headerbar {
+	background-color: rgb(245, 245, 220);
+	width: 100vw;
 }
 
-.NavBar {
-	display: flex;
-	justify-content: flex-start;
-	height: 70px;
-	align-items: center;
-	width: 100%;
-}
-
-.logo {
-	/* flex-grow: 1; */
-	text-align: center;
-}
-
-.logo img {
-	/* display: inline-block; */
+.sitelogo {
 	height: 40px;
-}
-
-.topleft {
-	display: flex;
-}
-
-.topleft .directory {
-	background-color: beige;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	align-items: center;
-}
-
-.usermenu li a,
-.directory li a {
-	text-decoration: none;
-	color: black;
-	padding: 10px 15px;
-	display: block;
-}
-
-.usermenu li a:hover,
-.directory li a:hover {
-	color: grey;
-	scale: 95%;
-	transform: none;
-}
-
-.topright {
-	display: flex;
-	flex-grow: 1;
-	justify-content: flex-end;
-	flex-shrink: 0; /* Prevent shrinking */
-}
-
-.topright .usermenu {
-	background-color: beige;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	align-items: center;
+	margin-left: 0.5vw;
 }
 
 .cartLogo {
-	height: 30px;
-}
-
-.searchinput {
-	padding: 5px 5px;
-	width: 75%;
-	border: none;
-	padding-left: 20px;
-	border-radius: 20px;
-	outline: none;
+	height: 27px;
 }
 
 .searchlogo {
 	height: 15px;
-	top: 35px;
-	/* position: absolute; */
-	/* margin-left: 5px; */
-	cursor: pointer;
-}
-
-.searchcontainer {
-	position: relative;
-	display: flex;
-	align-items: center;
-	width: 250px; /* Adjust width to fit both input and logo */
-	height: 40px; /* Adjust height to match the input box */
-	background-color: white; /* Makes sure the background is white */
-	border-radius: 20px; /* Rounds the corners of the container */
-	border: 1px solid #ccc;
 }
