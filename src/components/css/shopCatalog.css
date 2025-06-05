@@ -1,0 +1,8 @@
+.catalogOrganization {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr); /* 5 columns */
+	gap: 2rem; /* space between cards */
+	padding: 4rem;
+	background-color: rgb(245, 245, 220);
+	margin-top: -2rem;
+}

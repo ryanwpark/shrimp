@@ -1,0 +1,30 @@
+.headerbar-hstack {
+	background-color: rgb(245, 245, 220);
+	width: 100vw;
+}
+
+.site-logo {
+	height: 40px;
+	width: 60px;
+	padding-left: 0.2vw;
+}
+
+.cart-logo {
+	height: 30px;
+	width: 40px;
+	margin-right: 2vw;
+}
+
+.search-logo {
+	height: 15px;
+}
+
+.headerbar-searchbar {
+	border-radius: 100;
+	margin-left: 20%;
+}
+
+.headerbar-searchbar-input {
+	width: 20%;
+	border-radius: 0%;
+}
