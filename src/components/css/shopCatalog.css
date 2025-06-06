@@ -1,8 +1,28 @@
-.catalogOrganization {
+.catalogContainer {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	width: 100%;
+	background-color: rgb(245, 245, 220);
+	position: relative;
+}
+
+.cardContainer {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr); /* 5 columns */
 	gap: 2rem; /* space between cards */
-	padding: 4rem;
-	background-color: rgb(245, 245, 220);
-	margin-top: -2rem;
+	padding: 2rem;
+}
+
+.catalogMenu {
+	/* align-self: flex-end;
+	margin-bottom: 1.5rem;
+	width: 20vw; */
+}
+
+.catalogCard {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 2rem;
+	width: 100%;
 }
