@@ -4,25 +4,61 @@
 	padding: 2rem;
 	width: 100%;
 	background-color: rgb(245, 245, 220);
-	position: relative;
-}
-
-.cardContainer {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr); /* 5 columns */
 	gap: 2rem; /* space between cards */
 	padding: 2rem;
+	width: 100%;
+}
+
+.cardContainer {
 }
 
 .catalogMenu {
-	/* align-self: flex-end;
-	margin-bottom: 1.5rem;
-	width: 20vw; */
+	align-self: flex-end;
+	/* margin-bottom: 1.5rem; */
+	width: 10vw;
+	border: black solid 0.5px;
 }
 
 .catalogCard {
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	gap: 2rem;
-	width: 100%;
+	width: 15vw;
+	border: black solid 0.5px;
+}
+
+.menuButton {
+	align-self: flex-end;
+	border: black solid 0.5px;
+	padding-left: 20vw;
+	background: white;
+}
+.paginationBttns {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	width: 80%;
+	height: 40px;
+}
+.paginationBttns a {
+	padding: 10px;
+	margin: 8px;
+	border: 1px solid blue.100;
+	border-radius: 5px;
+	cursor: pointer;
+	color: blue.100;
+}
+.paginationBttns a:hover {
+	background-color: blue.100;
+	color: black;
+}
+.paginationActive a {
+	background-color: blue.100;
+	color: black;
+}
+
+.previousBttn {
+}
+.nextBttn {
+}
+.paginationDisabled {
 }

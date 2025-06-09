@@ -1,10 +1,7 @@
-/* .ShopFilterContainer {
-	align-self: 'center';
-	justify-content: 'center';
-	padding: 1rem;
-	background: rgb(245, 245, 220);
-	display: flex;
-} */
+.ShopFilterCard {
+	border: none;
+	box-shadow: none;
+}
 
 .ShopFilterContainer {
 	width: 800;
@@ -13,4 +10,14 @@
 	align-items: center;
 	justify-content: center;
 	padding: 1rem;
+	border: none;
+	box-shadow: none;
+}
+
+.ShopFilterInput {
+}
+
+.ShopFilterCardBody {
+	border: none;
+	box-shadow: none;
 }

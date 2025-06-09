@@ -15,18 +15,63 @@ import {
 import { HamburgerIcon } from '@chakra-ui/icons';
 import './css/shopCatalog.css';
 import { useState } from 'react';
+import ReactPaginate from 'react-paginate';
 
 export default function ShopCatalog({ data }) {
-	var [menuItem, setMenuItem] = useState('Best Sellers');
+	const [menuItem, setMenuItem] = useState('Best Sellers');
+	const [displayData, setDisplayData] = useState(data.slice(0, 100));
+	const [pageNumber, setPageNumber] = useState(0);
+
+	const shrimpPerPage = 20;
+	const shrimpVisited = pageNumber * shrimpPerPage;
+
+	const pageCount = Math.ceil(data.length / shrimpPerPage);
+
+	const changePage = ({ selected }) => {
+		setPageNumber(selected);
+	};
+
+	const displayShrimp = displayData
+		.slice(shrimpVisited, shrimpVisited + shrimpPerPage)
+		.map((shrimp) => {
+			return (
+				<Card className='catalogCard'>
+					<CardBody>
+						<img
+							src={require(`../${shrimp.image_url}`)}
+							alt={shrimp.name}
+							borderRadius='lg'
+						/>
+						<Stack mt='6' spacing='3'>
+							<Heading size='md'>
+								{shrimp.name || 'Shrimp'}
+							</Heading>
+							<Text>${shrimp.price_single || '--'} for 1</Text>
+							<Text>${shrimp.price_pack_10 || '--'} for 10</Text>
+						</Stack>
+					</CardBody>
+					<ButtonGroup spacing='3' padding='.5rem'>
+						<Button variant='solid' colorScheme='green'>
+							Buy now
+						</Button>
+						<Button variant='solid' colorScheme='blue'>
+							Add cart
+						</Button>
+					</ButtonGroup>
+				</Card>
+			);
+		});
 
 	return (
-		<div className='catalogContainer'>
+		<Stack>
 			<Menu className='catalogMenu'>
 				<MenuButton
 					as={IconButton}
 					variant='outline'
 					icon={<HamburgerIcon />}
 					aria-label='Options'
+					className='menuButton'
+					width='5vw'
 				>
 					{menuItem}
 				</MenuButton>
@@ -46,40 +91,25 @@ export default function ShopCatalog({ data }) {
 					<MenuItem onClick={() => setMenuItem('A-Z')}>
 						A - Z
 					</MenuItem>
-					<MenuItem onCLick={() => setMenuItem('Z-A')}>
+					<MenuItem onClick={() => setMenuItem('Z-A')}>
 						Z - A
 					</MenuItem>
 				</MenuList>
 			</Menu>
-			{data.map((item) => (
-				<Card
-					bg='rgb(245, 245, 220)'
-					borderColor='red.black'
-					border='1px solid'
-					className='=catalogCard'
-				>
-					<CardBody>
-						<img
-							src={require(`../${item.image_url}`)}
-							alt={item.name}
-							borderRadius='lg'
-						/>
-						<Stack mt='6' spacing='3'>
-							<Heading size='md'>{item.name || 'Shrimp'}</Heading>
-							<Text>${item.price_single || '--'} for 1</Text>
-							<Text>${item.price_pack_10 || '--'} for 10</Text>
-						</Stack>
-					</CardBody>
-					<ButtonGroup spacing='3' padding='.5rem'>
-						<Button variant='solid' colorScheme='green'>
-							Buy now
-						</Button>
-						<Button variant='solid' colorScheme='blue'>
-							Add cart
-						</Button>
-					</ButtonGroup>
-				</Card>
-			))}
-		</div>
+			<div className='catalogContainer'>
+				{displayShrimp}
+				<ReactPaginate
+					previousLabel='Previous'
+					nextLabel='Next'
+					pageCount={pageCount}
+					onPageChange={changePage}
+					containerClassName='paginationBttns'
+					previousLinkClassName='previousBttn'
+					nextLinkClassName='nextBttn'
+					disabledClassName='paginationDisabled'
+					activeClassName='paginationActive'
+				/>
+			</div>
+		</Stack>
 	);
 }

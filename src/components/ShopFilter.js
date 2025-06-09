@@ -15,10 +15,12 @@ export default function ShopFilter() {
 	return (
 		<Stack className='ShopFilterContainer'>
 			<Card className='ShopFilterCard' background={'rgb(245, 245, 220)'}>
-				<CardBody>
+				<CardBody className='ShopFilterCardBody'>
 					<Stack>
-						<Input type='dropdown' />
-						<Button color={'blue'}>Find</Button>
+						<Input className='ShopFilterInput' bg='white' />
+						<Button className='ShopFilterButton' bg={'blue.100'}>
+							Find
+						</Button>
 					</Stack>
 				</CardBody>
 			</Card>
