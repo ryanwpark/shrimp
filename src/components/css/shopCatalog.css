@@ -15,22 +15,18 @@
 }
 
 .catalogMenu {
+}
+.menuButton {
 	align-self: flex-end;
-	/* margin-bottom: 1.5rem; */
-	width: 10vw;
 	border: black solid 0.5px;
+	background: white;
+	width: 2vw;
+	margin-right: 2rem;
 }
 
 .catalogCard {
 	width: 15vw;
 	border: black solid 0.5px;
-}
-
-.menuButton {
-	align-self: flex-end;
-	border: black solid 0.5px;
-	padding-left: 20vw;
-	background: white;
 }
 .paginationBttns {
 	display: flex;
@@ -61,4 +57,10 @@
 .nextBttn {
 }
 .paginationDisabled {
+}
+
+.catalogHeading {
+	width: 100%;
+	text-align: center;
+	margin-left: 4rem;
 }

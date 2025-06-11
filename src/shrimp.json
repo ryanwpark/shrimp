@@ -3,245 +3,315 @@
 		"product_id": 1,
 		"name": "Large Shrimp",
 		"price_single": 5.99,
-		"price_pack_10": 50.0,
-		"image_url": "shrimpPics/shrimp1.webp"
+		"price_pack_10": 50,
+		"image_url": "shrimpPics/shrimp1.webp",
+		"featured": false,
+		"sold": 22
 	},
 	{
 		"product_id": 2,
 		"name": "Medium Shrimp",
 		"price_single": 3.99,
-		"price_pack_10": 35.0,
-		"image_url": "shrimpPics/shrimp2.webp"
+		"price_pack_10": 35,
+		"image_url": "shrimpPics/shrimp2.webp",
+		"featured": true,
+		"sold": 149
 	},
 	{
 		"product_id": 3,
 		"name": "Small Shrimp",
 		"price_single": 2.99,
-		"price_pack_10": 27.0,
-		"image_url": "shrimpPics/shrimp3.webp"
+		"price_pack_10": 27,
+		"image_url": "shrimpPics/shrimp3.webp",
+		"featured": true,
+		"sold": 72
 	},
 	{
 		"product_id": 4,
 		"name": "Tiger Shrimp",
 		"price_single": 8.99,
-		"price_pack_10": 80.0,
-		"image_url": "shrimpPics/shrimp4.jpg"
+		"price_pack_10": 80,
+		"image_url": "shrimpPics/shrimp4.jpg",
+		"feaured": false,
+		"sold": 112
 	},
 	{
 		"product_id": 5,
 		"name": "King Prawn",
 		"price_single": 12.99,
-		"price_pack_10": 110.0,
-		"image_url": "shrimpPics/shrimp5.webp"
+		"price_pack_10": 110,
+		"image_url": "shrimpPics/shrimp5.webp",
+		"featured": true,
+		"sold": 15
 	},
 	{
 		"product_id": 6,
 		"name": "Frozen Shrimp",
 		"price_single": 4.49,
-		"price_pack_10": 40.0,
-		"image_url": "shrimpPics/shrimp6.webp"
+		"price_pack_10": 40,
+		"image_url": "shrimpPics/shrimp6.webp",
+		"feaured": false,
+		"sold": 121
 	},
 	{
 		"product_id": 7,
 		"name": "Jumbo Shrimp",
 		"price_single": 10.99,
-		"price_pack_10": 95.0,
-		"image_url": "shrimpPics/shrimp7.webp"
+		"price_pack_10": 95,
+		"image_url": "shrimpPics/shrimp7.webp",
+		"feaured": false,
+		"sold": 27
 	},
 	{
 		"product_id": 8,
 		"name": "Black Tiger Shrimp",
 		"price_single": 9.49,
-		"price_pack_10": 85.0,
-		"image_url": "shrimpPics/shrimp8.webp"
+		"price_pack_10": 85,
+		"image_url": "shrimpPics/shrimp8.webp",
+		"featured": true,
+		"sold": 91
 	},
 	{
 		"product_id": 9,
 		"name": "White Shrimp",
 		"price_single": 6.99,
-		"price_pack_10": 60.0,
-		"image_url": "shrimpPics/shrimp9.webp"
+		"price_pack_10": 60,
+		"image_url": "shrimpPics/shrimp9.webp",
+		"feaured": false,
+		"sold": 32
 	},
 	{
 		"product_id": 10,
 		"name": "Red Cherry Shrimp",
 		"price_single": 4.99,
-		"price_pack_10": 45.0,
-		"image_url": "shrimpPics/shrimp1.webp"
+		"price_pack_10": 45,
+		"image_url": "shrimpPics/shrimp1.webp",
+		"featured": true,
+		"sold": 137
 	},
 	{
 		"product_id": 11,
 		"name": "Blue Velvet Shrimp",
 		"price_single": 5.49,
-		"price_pack_10": 48.0,
-		"image_url": "shrimpPics/shrimp2.webp"
+		"price_pack_10": 48,
+		"image_url": "shrimpPics/shrimp2.webp",
+		"feaured": false,
+		"sold": 18
 	},
 	{
 		"product_id": 12,
 		"name": "Amano Shrimp",
 		"price_single": 3.49,
-		"price_pack_10": 32.0,
-		"image_url": "shrimpPics/shrimp3.webp"
+		"price_pack_10": 32,
+		"image_url": "shrimpPics/shrimp3.webp",
+		"feaured": false,
+		"sold": 42
 	},
 	{
 		"product_id": 13,
 		"name": "Ghost Shrimp",
 		"price_single": 2.49,
-		"price_pack_10": 20.0,
-		"image_url": "shrimpPics/shrimp4.jpg"
+		"price_pack_10": 20,
+		"image_url": "shrimpPics/shrimp4.jpg",
+		"feaured": false,
+		"sold": 111
 	},
 	{
 		"product_id": 14,
 		"name": "Snowball Shrimp",
 		"price_single": 4.29,
-		"price_pack_10": 39.0,
-		"image_url": "shrimpPics/shrimp5.webp"
+		"price_pack_10": 39,
+		"image_url": "shrimpPics/shrimp5.webp",
+		"feaured": false,
+		"sold": 104
 	},
 	{
 		"product_id": 15,
 		"name": "Sulawesi Shrimp",
 		"price_single": 7.99,
-		"price_pack_10": 75.0,
-		"image_url": "shrimpPics/shrimp6.webp"
+		"price_pack_10": 75,
+		"image_url": "shrimpPics/shrimp6.webp",
+		"featured": true,
+		"sold": 64
 	},
 	{
 		"product_id": 16,
 		"name": "Crystal Red Shrimp",
 		"price_single": 6.49,
-		"price_pack_10": 62.0,
-		"image_url": "shrimpPics/shrimp7.webp"
+		"price_pack_10": 62,
+		"image_url": "shrimpPics/shrimp7.webp",
+		"feaured": false,
+		"sold": 120
 	},
 	{
 		"product_id": 17,
 		"name": "Crystal Black Shrimp",
 		"price_single": 6.49,
-		"price_pack_10": 62.0,
-		"image_url": "shrimpPics/shrimp8.webp"
+		"price_pack_10": 62,
+		"image_url": "shrimpPics/shrimp8.webp",
+		"feaured": false,
+		"sold": 113
 	},
 	{
 		"product_id": 18,
 		"name": "Green Jade Shrimp",
 		"price_single": 5.99,
-		"price_pack_10": 55.0,
-		"image_url": "shrimpPics/shrimp9.webp"
+		"price_pack_10": 55,
+		"image_url": "shrimpPics/shrimp9.webp",
+		"feaured": false,
+		"sold": 87
 	},
 	{
 		"product_id": 19,
 		"name": "Yellow Shrimp",
 		"price_single": 4.79,
-		"price_pack_10": 44.0,
-		"image_url": "shrimpPics/shrimp1.webp"
+		"price_pack_10": 44,
+		"image_url": "shrimpPics/shrimp1.webp",
+		"feaured": false,
+		"sold": 142
 	},
 	{
 		"product_id": 20,
 		"name": "Orange Sakura Shrimp",
 		"price_single": 5.29,
-		"price_pack_10": 49.0,
-		"image_url": "shrimpPics/shrimp2.webp"
+		"price_pack_10": 49,
+		"image_url": "shrimpPics/shrimp2.webp",
+		"feaured": false,
+		"sold": 81
 	},
 	{
 		"product_id": 21,
 		"name": "Rili Shrimp",
 		"price_single": 5.19,
-		"price_pack_10": 47.0,
-		"image_url": "shrimpPics/shrimp3.webp"
+		"price_pack_10": 47,
+		"image_url": "shrimpPics/shrimp3.webp",
+		"feaured": false,
+		"sold": 51
 	},
 	{
 		"product_id": 22,
 		"name": "Vampire Shrimp",
 		"price_single": 8.49,
-		"price_pack_10": 82.0,
-		"image_url": "shrimpPics/shrimp4.jpg"
+		"price_pack_10": 82,
+		"image_url": "shrimpPics/shrimp4.jpg",
+		"feaured": false,
+		"sold": 68
 	},
 	{
 		"product_id": 23,
 		"name": "Bamboo Shrimp",
 		"price_single": 7.49,
-		"price_pack_10": 70.0,
-		"image_url": "shrimpPics/shrimp5.webp"
+		"price_pack_10": 70,
+		"image_url": "shrimpPics/shrimp5.webp",
+		"feaured": false,
+		"sold": 46
 	},
 	{
 		"product_id": 24,
 		"name": "Malawa Shrimp",
 		"price_single": 3.99,
-		"price_pack_10": 36.0,
-		"image_url": "shrimpPics/shrimp6.webp"
+		"price_pack_10": 36,
+		"image_url": "shrimpPics/shrimp6.webp",
+		"feaured": false,
+		"sold": 27
 	},
 	{
 		"product_id": 25,
 		"name": "Pinocchio Shrimp",
 		"price_single": 4.19,
-		"price_pack_10": 38.0,
-		"image_url": "shrimpPics/shrimp7.webp"
+		"price_pack_10": 38,
+		"image_url": "shrimpPics/shrimp7.webp",
+		"feaured": false,
+		"sold": 76
 	},
 	{
 		"product_id": 26,
 		"name": "Caridina Shrimp",
 		"price_single": 5.69,
-		"price_pack_10": 53.0,
-		"image_url": "shrimpPics/shrimp8.webp"
+		"price_pack_10": 53,
+		"image_url": "shrimpPics/shrimp8.webp",
+		"featured": true,
+		"sold": 27
 	},
 	{
 		"product_id": 27,
 		"name": "Neocaridina Shrimp",
 		"price_single": 4.59,
-		"price_pack_10": 42.0,
-		"image_url": "shrimpPics/shrimp9.webp"
+		"price_pack_10": 42,
+		"image_url": "shrimpPics/shrimp9.webp",
+		"featured": true,
+		"sold": 89
 	},
 	{
 		"product_id": 28,
 		"name": "Blue Bolt Shrimp",
 		"price_single": 7.19,
-		"price_pack_10": 68.0,
-		"image_url": "shrimpPics/shrimp1.webp"
+		"price_pack_10": 68,
+		"image_url": "shrimpPics/shrimp1.webp",
+		"featured": true,
+		"sold": 148
 	},
 	{
 		"product_id": 29,
 		"name": "Panda Shrimp",
 		"price_single": 8.29,
-		"price_pack_10": 78.0,
-		"image_url": "shrimpPics/shrimp2.webp"
+		"price_pack_10": 78,
+		"image_url": "shrimpPics/shrimp2.webp",
+		"feaured": false,
+		"sold": 29
 	},
 	{
 		"product_id": 30,
 		"name": "King Kong Shrimp",
 		"price_single": 9.99,
-		"price_pack_10": 90.0,
-		"image_url": "shrimpPics/shrimp3.webp"
+		"price_pack_10": 90,
+		"image_url": "shrimpPics/shrimp3.webp",
+		"feaured": false,
+		"sold": 150
 	},
 	{
 		"product_id": 31,
 		"name": "Wine Red Shrimp",
 		"price_single": 8.79,
-		"price_pack_10": 85.0,
-		"image_url": "shrimpPics/shrimp4.jpg"
+		"price_pack_10": 85,
+		"image_url": "shrimpPics/shrimp4.jpg",
+		"feaured": false,
+		"sold": 24
 	},
 	{
 		"product_id": 32,
 		"name": "Shadow Panda Shrimp",
 		"price_single": 9.49,
-		"price_pack_10": 88.0,
-		"image_url": "shrimpPics/shrimp5.webp"
+		"price_pack_10": 88,
+		"image_url": "shrimpPics/shrimp5.webp",
+		"feaured": false,
+		"sold": 82
 	},
 	{
 		"product_id": 33,
 		"name": "Blue Dream Shrimp",
 		"price_single": 6.59,
-		"price_pack_10": 60.0,
-		"image_url": "shrimpPics/shrimp6.webp"
+		"price_pack_10": 60,
+		"image_url": "shrimpPics/shrimp6.webp",
+		"feaured": false,
+		"sold": 103
 	},
 	{
 		"product_id": 34,
 		"name": "Golden Bee Shrimp",
 		"price_single": 7.89,
-		"price_pack_10": 72.0,
-		"image_url": "shrimpPics/shrimp7.webp"
+		"price_pack_10": 72,
+		"image_url": "shrimpPics/shrimp7.webp",
+		"featured": true,
+		"sold": 11
 	},
 	{
 		"product_id": 35,
 		"name": "Red Tiger Shrimp",
 		"price_single": 8.19,
-		"price_pack_10": 80.0,
-		"image_url": "shrimpPics/shrimp8.webp"
+		"price_pack_10": 80,
+		"image_url": "shrimpPics/shrimp8.webp",
+		"feaured": false,
+		"sold": 0
 	}
 ]
