@@ -1,9 +1,9 @@
 import { Stack } from '@chakra-ui/react';
 import ShopCatalog from '../components/ShopCatalog';
 import ShopFilter from '../components/ShopFilter';
-import shrimpData from '../shrimp.json';
+// import shrimpData from '../shrimp.json';
 
-export default function Shop() {
+export default function Shop(shrimpData) {
 	return (
 		<Stack
 			className='ShopContainer'

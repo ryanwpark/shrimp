@@ -15,8 +15,9 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
 import './css/shopCatalog.css';
-import { useState } from 'react';
+import React from 'react';
 import ReactPaginate from 'react-paginate';
+import { ShopContext } from './cart-context';
 
 const sortOptions = [
 	{ label: 'Best Sellers', value: 'Best Sellers' },
@@ -56,9 +57,9 @@ function getSortedData(data, sortType) {
 }
 
 export default function ShopCatalog({ data }) {
-	const [menuItem, setMenuItem] = useState('Best Sellers');
-	const [displayData, setDisplayData] = useState(data);
-	const [pageNumber, setPageNumber] = useState(0);
+	const [menuItem, setMenuItem] = React.useState('Best Sellers');
+	const [displayData, setDisplayData] = React.useState(data.shrimpData);
+	const [pageNumber, setPageNumber] = React.useState(0);
 
 	const handleSort = (sortType) => {
 		setMenuItem(sortType);
@@ -71,7 +72,7 @@ export default function ShopCatalog({ data }) {
 	const shrimpPerPage = 20;
 	const shrimpVisited = pageNumber * shrimpPerPage;
 	const pageCount = Math.ceil(displayData.length / shrimpPerPage);
-
+	const { cartItems, addToCart } = React.useContext(ShopContext);
 	const displayShrimp = displayData
 		.slice(shrimpVisited, shrimpVisited + shrimpPerPage)
 		.map((shrimp) => {
@@ -93,7 +94,15 @@ export default function ShopCatalog({ data }) {
 					</CardBody>
 					<ButtonGroup spacing='2' padding='2rem' variant='solid'>
 						<Button colorScheme='green'>Buy now</Button>
-						<Button colorScheme='blue'>Add cart</Button>
+						<Button
+							colorScheme='blue'
+							onClick={() => {
+								addToCart(shrimp.product_id);
+								console.log('cartItems:,', cartItems);
+							}}
+						>
+							Add cart
+						</Button>
 					</ButtonGroup>
 				</Card>
 			);
